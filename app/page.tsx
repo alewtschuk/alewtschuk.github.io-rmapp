@@ -10,7 +10,7 @@ export default function Component() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <a href="#top" className="flex items-center gap-2">
-              <img src="/rmapp-site/images/ascii-logo.png" alt="rmapp ascii art logo" className="h-8 w-auto" />
+              <img src="/images/ascii-logo.png" alt="rmapp ascii art logo" className="h-8 w-auto" />
             </a>
           </div>
           <nav className="hidden md:flex items-center gap-6">
@@ -39,7 +39,7 @@ export default function Component() {
       <section className="py-20 px-4">
         <div className="container mx-auto text-center">
           <div className="max-w-3xl mx-auto">
-            <img src="/rmapp-site/images/ascii-logo.png" alt="rmapp ascii art logo" className="w-full h-auto mb-6" />
+            <img src="/images/ascii-logo.png" alt="rmapp ascii art logo" className="w-full h-auto mb-6" />
             <p className="text-lg md:text-xl text-slate-300 mb-8">
               Rm for your apps. No more drag to trash. No more artifacts. All in the command line. GUIs are for normies.
             </p>
@@ -195,7 +195,7 @@ export default function Component() {
               <CardContent>
                 <div className="rounded-lg overflow-hidden border border-slate-600">
                   <img
-                    src="/rmapp-site/images/help-demo.png"
+                    src="/images/help-demo.png"
                     alt="Terminal demonstration of rmapp --help showing all available commands"
                     className="w-full h-auto"
                   />
@@ -219,7 +219,7 @@ export default function Component() {
               <CardContent>
                 <div className="rounded-lg overflow-hidden border border-slate-600">
                   <img
-                    src="/rmapp-site/images/peek-demo.png"
+                    src="/images/peek-demo.png"
                     alt="Terminal demonstration of rmapp --peek showing file discovery and sizes"
                     className="w-full h-auto"
                   />
@@ -241,7 +241,7 @@ export default function Component() {
               <CardContent>
                 <div className="rounded-lg overflow-hidden border border-slate-600">
                   <img
-                    src="/rmapp-site/images/trash-demo.png"
+                    src="/images/trash-demo.png"
                     alt="Terminal demonstration of rmapp safe deletion moving files to trash"
                     className="w-full h-auto"
                   />
