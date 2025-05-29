@@ -47,7 +47,7 @@ export default function Component() {
               <Button size="lg" className="bg-[rgb(56,128,232)] hover:bg-[rgb(46,108,192)] text-white" asChild>
                 <a href="#installation"> 
                   <Download className="h-5 w-5 mr-2" />
-                  Download Now
+                  Install Now
                 </a>
               </Button>
               <Button size="lg" variant="outline" className="border-slate-600 hover:bg-slate-800" asChild>
@@ -225,7 +225,7 @@ export default function Component() {
                   />
                 </div>
                 <div className="mt-4 bg-black rounded p-4 font-mono text-sm">
-                  <span className="text-green-400">$ rmapp -p "Application Name"</span>
+                  <span className="text-green-400">$ rmapp -p &quot;Application Name&quot;</span>
                 </div>
               </CardContent>
             </Card>
@@ -247,7 +247,7 @@ export default function Component() {
                   />
                 </div>
                 <div className="mt-4 bg-black rounded p-4 font-mono text-sm">
-                  <span className="text-green-400">$ rmapp "Application Name"</span>
+                  <span className="text-green-400">$ rmapp &quot;Application Name&quot;</span>
                 </div>
               </CardContent>
             </Card>
