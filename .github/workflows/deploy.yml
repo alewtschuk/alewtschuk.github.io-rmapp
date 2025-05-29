@@ -25,7 +25,6 @@ jobs:
       - name: Build and export
         run: |
           npm run build
-          npx next export
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
