@@ -1,11 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
+  basePath: '/rmapp-site',
+  assetPrefix: '/rmapp-site/',
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
-  basePath: '/rmapp-site'
 };
 
 export default nextConfig;
