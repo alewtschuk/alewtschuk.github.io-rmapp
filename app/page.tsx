@@ -25,7 +25,7 @@ export default function Component() {
             </a>
           </nav>
           <div className="flex items-center gap-2">
-            <Button variant="outline" size="sm" className="border-slate-600 hover:bg-slate-800" asChild>
+            <Button variant="outline" size="sm" className="border-slate-600 hover:bg-[rgb(46,108,192)]" asChild>
               <a href="https://github.com/alewtschuk/rmapp" target="_blank" rel="noopener noreferrer" className="text-[#171717]">
                 <Github className="h-4 w-4 mr-2" />
                 GitHub
@@ -41,16 +41,16 @@ export default function Component() {
           <div className="max-w-3xl mx-auto">
             <img src="/images/ascii-logo.png" alt="rmapp ascii art logo" className="w-full h-auto mb-6" />
             <p className="text-lg md:text-xl text-slate-300 mb-8">
-              Its rm for your apps. No more drag to trash. No more artifacts. GUIs are for normies.
+              Rm for your apps. No more drag to trash. No more artifacts. All in the command line. GUIs are for normies.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button size="lg" className="bg-[rgb(56,128,232)] hover:bg-[rgb(46,108,192)] text-white" asChild>
                 <a href="#installation"> 
                   <Download className="h-5 w-5 mr-2" />
-                  Install Now
+                  Install Now on MacOS
                 </a>
               </Button>
-              <Button size="lg" variant="outline" className="border-slate-600 hover:bg-slate-800" asChild>
+              <Button size="lg" variant="outline" className="border-slate-600 hover:bg-[rgb(46,108,192)]" asChild>
                 <a href="https://github.com/alewtschuk/rmapp" target="_blank" rel="noopener noreferrer" className="text-[#171717]">
                   <Github className="h-5 w-5 mr-2" />
                   View on GitHub
@@ -270,7 +270,7 @@ export default function Component() {
                   View on GitHub
                 </a>
               </Button>
-              <Button size="lg" variant="outline" className="border-slate-600 hover:bg-slate-800" asChild>
+              <Button size="lg" variant="outline" className="border-slate-600 hover:bg-[rgb(46,108,192)]" asChild>
                 <a href="https://github.com/alewtschuk/rmapp/stargazers" target="_blank" rel="noopener noreferrer" className="text-[#171717]">
                   <Star className="h-5 w-5 mr-2" />
                   Star the Project
