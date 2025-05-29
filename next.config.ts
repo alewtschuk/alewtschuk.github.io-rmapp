@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: '/rmapp'
+  basePath: '/rmapp-site'
 };
 
 export default nextConfig;
